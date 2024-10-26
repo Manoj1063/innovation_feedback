@@ -33,6 +33,10 @@ email = st.text_input("📧 Email ID")
 st.markdown("### Select the idea(s) you're giving feedback on:")
 idea_1 = st.checkbox("Idea 1 - AI Equipped Firmware IDE")
 idea_2 = st.checkbox("Idea 2 - Translatable Micro Models in Small Memory Embedded device through Meridian Ecosystem")
+idea_3 = st.checkbox("Idea 3 - Method to optimize platform porting pipeline for firmware development using Generative AI")
+idea_4 = st.checkbox("Idea 4 - AIFA - AMI Intelligent Firmware Assitant")
+idea_5 = st.checkbox("Idea 5 - Smart BMC (Talkthon)")
+
 
 # Concatenate selected ideas into a string
 selected_ideas = ", ".join([idea for idea, selected in [("AI Equipped Firmware IDE", idea_1), 
